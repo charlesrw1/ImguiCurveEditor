@@ -1,8 +1,8 @@
-Requires: imgui, glm
+**Requires: imgui, glm**
 
 To use: create a CurveEditorImgui instance and call .draw() when updating your ImGui interfaces
 
-Controls: 
+### Controls: 
 
 Hold middle mouse and drag to pan.
 
@@ -12,7 +12,7 @@ Scroll wheel plus ctrl to zoom the Y-axis.
 
 Create curves by clicking 'Add row' in the sidebar, select the row by clicking on it. Right click the row in the sidebar to change the curve's name, change the curve's color, or delete the curve. The checkbox toggles the curves visibility.
 
-(Important!) With a row SELECTED in the sidebar, right click on the graph area to add a point to it's curve.
+*(Important!)* With a row **SELECTED** in the sidebar, right click on the graph area to add a point to it's curve.
 
 Click and drag points with the left mouse button.
 
